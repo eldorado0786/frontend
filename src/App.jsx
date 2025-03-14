@@ -35,7 +35,7 @@ function App() {
               <Route path={ROUTES.PROFILE} element={<Profile />} />
               <Route path={ROUTES.TRANSACTIONS} element={<Transaction />} /> */}
               {/* Redirect root to dashboard */}
-              <Route path="/" element={<Testing />} />
+              <Route path={ROUTES.TESTING} element={<Testing />} />
               {/* <Route
                 path="/"
                 element={<Navigate to={ROUTES.DASHBOARD} replace />}
